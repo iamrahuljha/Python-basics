@@ -1,5 +1,7 @@
 # n = b 
 
+print("this one is going execute through Jenkins") 
+
 print("HI")
 print("This Is Rahul Jha")
 print("Stay at home")
@@ -27,6 +29,8 @@ print(new_year)
 
 print("###################")
 
+
+"""
 value = 1
 while value<50:
     print("from 1 to 1oo is ", value)
@@ -68,3 +72,4 @@ else:
 print("Thanks for Playing today with us",name, "hope you enjoyed today")
 print(answer)
 
+"""
