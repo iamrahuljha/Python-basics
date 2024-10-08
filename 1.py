@@ -1,4 +1,4 @@
-from fastapi import FastApi
+from fastapi import FastAPI
 import os
 os.system("pip install fastapi")
 os.system("pip install uvicorn")
