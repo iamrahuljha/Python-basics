@@ -1,4 +1,14 @@
-# n = b 
+from fastapi import FastApi
+import os
+os.system("pip install fastapi")
+os.system("pip install uvicorn")
+app = FastAPI()
+ 
+# Define a route at the root web address ("/")
+@app.get("/")
+def read_root():
+    return {"message": "Hello, FastAPI!"}
+
 
 print("this one is going execute through Jenkins") 
 
